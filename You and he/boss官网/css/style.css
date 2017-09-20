@@ -1,0 +1,376 @@
+/*
+    设置总体样式，样式中间偏移
+*/
+.header-nav-all{
+    width: 960px;
+    display: flex;
+    align-items:center;
+
+}
+.navbar-center{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-bottom: 0;
+    /*background-color: #ff622f;*/
+}
+/* 如果测试页面下滑 设置导航条展示信息  */
+.renxing>li>a{
+    height: 2rem;
+    text-align: center;
+}
+.renxing>li:hover{
+    color: black;
+    /*text-align: center;*/
+}
+
+
+/* 设置最上面部分的展示区域*/
+.navbar{
+    margin: 0px;
+    min-height: 0px;
+}
+/*.header-nav{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "微软雅黑";
+}*/
+.navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #666666;
+    font-size: 1rem;
+    font-family: "微软雅黑";
+}
+/* 设置logo图片展示区域*/
+.header-second-all{
+    background-color: #000000; 
+}
+.header-second{
+    margin-right: 4rem;
+    float: right;
+}
+.li-first{
+    height: 3rem;
+}
+.header-nav{
+    margin: 0;
+}
+.image-logo{
+    height: 90px;
+}
+.second-right-left{
+    width: 60px;
+}
+.second-right-left-er{
+    width: 100px;
+}
+.heder-second-left-star{
+    float: left;
+}
+.heder-second-left-lock{
+    float: left;
+}
+.heder-second-left-dream{
+    float: right;
+}
+.rightsssss{
+    float: right;
+    color: white;
+    margin-left: 53rem;
+    font-size: 1rem;
+}
+.sss{
+    color: white;
+    font-size: 1rem;
+}
+/*设置logo左浮动*/
+.header-first{
+    float: left;
+    
+}
+.glyphicon{
+    font-size: 15px;
+    color: #808080;
+}
+/*设置logo展示区下边框*/
+.second-first-one{
+    border-bottom: 2px solid gray;
+}
+.inline-call{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inline-call>li>a{
+    font-size: 13px;
+    font-family: "微软雅黑";
+    color: white;
+    text-align: left;
+}
+/*.inline-call>li{
+    text-align: center;
+}*/
+.inline-call>li>:hover{
+    font-size: 13px;
+    font-family: "微软雅黑";
+    color: black;
+    /*width: 120px;*/
+}
+/*设置搜索框组*/
+.searchs{
+    height: 30px;
+    width: 160px;
+    margin-top: 5px;
+    margin-bottom: -8px;
+}
+/*设置春季新品信息居中展示*/
+.txt-block{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.copy{
+    display: block;
+    margin: 0 0 16px;
+}
+.summary{
+    font-size: 20px;
+}
+.txt-blocks{
+    left: 0%;
+    right: auto !important;
+    position: absolute;
+    top: 38.5%;
+    width: 100%;
+    text-align: center !important;
+    color: white;
+}
+.cta-1{
+    width: 150px;
+    /*border: 1px solid #fff !important;*/
+    /*color: white;*/
+    display: inline-block;
+    /*transition: all 0.3s ease;*/
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px 22px 11px;
+    text-decoration: none;
+}
+.cta-5{
+    width: 120px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px 22px 11px;
+    text-decoration: none;
+}
+.cta-0{
+    color: white;
+    border: 1px solid #fff !important;
+}
+.cta-2{
+    color: white;
+    background-color: black;
+     border: 1px solid #000 !important;
+}
+.cta-2:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.cta-0:hover{
+    color: white;
+    text-decoration: none;
+}
+.manandw{
+    font-size: 20px !important;
+}
+.paragraph{
+    font-size: 20px !important;
+}
+.play-btn{
+    position: absolute;
+    width: 106px;
+    height: 1946px;
+    top: 30%;
+    left: 50%;
+    margin-left: -63px;
+    display: block;
+    opacity: 0.6;
+    /*color: blue;*/
+}
+.xingseborder{
+    color: white;
+}
+.xingse-left{
+    float: left;
+    /*height: 200px;*/
+    /*margin-right: 15px solid white;*/
+    width: 50%;
+    /*background-color: lightcoral;*/
+}
+.xingse-right{
+    float: right;
+    /*height: 200px;*/
+    width: 50%;
+    color: black;
+    /*background-color: lightgreen;*/
+}
+.vert-center-desktop{
+    position: relative;
+    height: 400px;
+    padding-top: 90px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.copy{
+    font-size: 16px;
+    margin: 20px 44px 34px 44px ;
+}
+.huojianhua{
+    margin-top: 20px;
+}
+.pengyuyan{
+     margin-top: 20px;
+}
+.txt-blocked{
+    left: 50%;
+    right: auto;
+    position: absolute;
+    top: 505%;
+    width: 30%;
+    text-align: center;
+    padding: 3rem;
+    background: rgba(0,0,0,0.7);
+}
+.txt-blocked>p>span{
+    font-size: 1.8rem;
+}
+.txt-blocked>p{
+    font-size: 2rem;
+}
+.txt-blockedp{
+    left: 20%;
+    right: auto;
+    position: absolute;
+    top: 570%;
+    width: 30%;
+    text-align: center;
+    padding: 3rem;
+    background: rgba(0,0,0,0.7);
+}
+.txt-blockedp>p>span{
+    font-size: 16px;
+}
+/*
+    设置生活杂志页面展示信息部分样式，主要是按百分比划分
+*/
+.emag{
+    /*background-color: hsl(2, 20%, 50%);*/
+    height: 365px;
+    width: 33.3%;
+    color: black;
+}
+.emaga{
+    border-right: 3px solid white;
+}
+.emgaz{
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+}
+/*注意：只有这一个有效果*/
+.emags{
+    border-left: 3px solid white;
+}
+/*.shange{
+    width: 100%;
+    height: 266px;
+}*/
+.emag>p{
+    font-size: 16px;
+    border-top: 10px;
+    line-height: 35px;
+}
+
+/*.shangek{
+    width: 100%;
+    height: 300px;
+}*/
+/*、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、*/
+/*设置导航栏的弹出框*/
+.nav-search{
+    width: 100%;
+    position:fixed;
+    top:0;
+    display:none;
+    height: 46px;
+    border-bottom: 1px solid #d6d6d6;
+    background-color: white;
+    z-index: 1000;
+}
+
+.search-input{
+    width: 100%;
+    height: 28px;
+    text-indent: 20px;
+    /*text-align: center;*/
+    font-size:16px;
+    /*border-top-left-radius: 2px;*/
+    /*border-bottom-left-radius: 2px;*/
+    border:0;
+    /*border:2px solid #3ebb2b;*/
+    box-sizing:border-box;
+    border-radius: 0;
+}
+/*设置轮播图的第二张展示效果的文字*/
+.henan{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.manandws{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "微软雅黑";
+    letter-spacing: 2px;
+}
+.manandwsg{
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+}
+/*主要是用来添加下边框，为后面添加下划线做准备*/
+.footerFs{
+ margin-bottom: 50px;
+}
+/*尾部样式设置*/
+.footerF{
+    height: 300px;
+    text-align: left;
+}
+.footF-a{
+    color: black;
+    text-decoration: none;
+}
+.footF-a:hover{
+    color: black
+}
+.guanwei-p{
+    font-size: 8px;
+    /*text*/
+}
+.col-lg-6,.col-lg-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.footerS{
+    height: 270px;
+    text-align: left;
+}
+.nbhr{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}

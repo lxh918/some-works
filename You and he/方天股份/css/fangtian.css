@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+}
+.sec1{
+    width: 1170px;
+    height: 105px;
+    /*border: 1px solid red;*/
+    margin: 0 auto; 
+}
+/*.sec1 div{
+    display: inline-block;
+}*/
+.nav{
+    width: 100%;
+    height: 105px;
+    box-sizing: border-box;
+}
+.logo{
+    display: inline-block;
+    width: 170px;
+    height: 53px;
+    /*margin-left: 400px;*/
+    margin-top: 27px;
+    margin-right: 170px;
+}
+.logo img{
+    width: 100%;
+}
+.shou{
+    display: inline-block;
+    width: 631px;
+    height: 105px;
+    /*border: 1px solid greenyellow;*/
+    /*position: relative;*/
+    /*left: 750px;
+    top: -87px;*/
+}
+.shou a{
+    display: inline-block;
+    width: 93px;
+    height: 105px;
+    text-decoration: none;
+    margin-left: -2.42px;
+    text-align: center;
+    line-height: 105px;
+    border-top: 5px solid #fff;
+    color: black;
+}
+.shou a:hover{
+    border-top: 5px solid #0056A6;
+}
+.shou .shou7{
+    width: 62px;
+}
+/*nav 隐藏部分*/
+.nav0{
+    width: 100%;
+    height: 75px;
+    background-color: #FBFCFD;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 0px;
+    top: 105px;
+    display: none;
+    z-index: 20;
+}
+.nav0 a{
+    color: #888888;
+}
+.nav0 a:hover{
+    color: #3366ff;
+}
+.nav1 ul{
+    width: 414px;
+}
+.nav2 ul{
+    width: 959px;
+}
+.nav3 ul{
+    width: 414px;
+}
+.nav4 ul{
+    width: 274px;
+}
+.nav5 ul{
+    width: 414px;
+}
+.nav6 ul{
+    width: 548px;
+}
+.nav ul li{
+    width: 137px;
+    height: 75px;
+    text-align: center;
+    line-height: 70px;
+    list-style: none;
+    float: left;
+}
+.nav ul{
+    margin: 0 auto;
+}
+.sousuo{
+    display: inline-block;
+    /*position: absolute;
+    right: 375px;
+    top: 39px;*/
+    
+}
+.sousuo div{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+/*.sousuo img{
+    position: absolute;
+    border-radius: 40%;
+    left: 107px;
+    top: 5px;
+}*/
+.sousuo input{
+    width: 130px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #f7f8f8;
+    text-indent: 1em;
+}
+.sousuo img{
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+
+/*轮播---------------------------------------------*/
+.lunbos{
+    width: 1902px;
+    height: 548px;
+    z-index: -1;
+}
+.lunbo0{
+    width: 1902px;
+    height: 548px;
+    /*border: 1px solid salmon;*/
+    position: absolute;
+    /*display: none;*/
+}
+lunbo0 img{
+    width: 1902px;
+    height: 548px;
+    left: 20px;
+    z-index: -3;
+}
+.bus{
+    width: 120px;
+    height: 30px;
+    border: 1px solid red;
+    z-index: 100;
+    position: relative;
+    top: 500px;
+    left: 900px;
+    display: none;
+}
+.lunbos span{
+    color: red;
+    display: inline-block;
+    /*float: right;*/
+    width: 45px;
+    height: 30px;
+    border: 1px solid darkcyan;
+    text-align: center;
+    font-size: 25px;
+}

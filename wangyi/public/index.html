@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网易云音乐</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            <h1 style="text-align:center;">网易云音乐</h1>
+        </p>
+        <div class="col-xs-6">
+
+            <div class="form-group">
+                <label for="exampleInputEmail2" style="font-size: 16px;">歌曲:</label>
+                <input type="text" class="form-control" id="exampleInputEmail2" placeholder="请输入搜索歌曲名">
+            </div>
+            <button class="btn btn-success" onclick="seek()">搜索</button>
+
+
+        </div>
+        <div class="col-xs-4">
+            <audio src="" controls autoplay></audio>
+        </div>
+
+        <div class="col-xs-8 content">
+            <div class="alert alert-success" role="alert">专辑</div>
+            <div class="row" id="left">
+
+
+            </div>
+        </div>
+        <div class="col-xs-4 contentRight">
+            <div class="alert alert-success" role="alert">歌曲列表</div>
+            <div id="right">
+                
+            </div>
+        </div>
+    </div>
+    <script src="lib/index.js"></script>
+</body>
+
+</html>

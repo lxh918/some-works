@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*基本标签*/
+*{ margin:0; padding:0; }
+ol, ul, li{ list-style:none; }
+b, strong { font-weight:bold; }
+table { border-collapse:collapse; border-spacing:0; }
+caption, th, td { text-align:left; font-weight:normal; }
+img { border:0; vertical-align:middle; }
+a { text-decoration:none; vertical-align:baseline; -webkit-transition:all 0.2s ease; -moz-transition:all 0.2s ease; transition:all 0.2s ease; color: white;}
+a:hover { text-decoration:none; }
+a:hover, a:focus, a:active { outline:0; }
+body { font-size:12px; -ms-word-break:break-all; -webkit-word-break:break-all; -moz-word-break:break-all; word-break:break-word; word-wrap:break-word; overflow-wrap:break-word; background:#fff; color:#333; font-family:Arial, "Microsoft YaHei"; }

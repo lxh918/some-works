@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <select name="p" id=""></select>
+    <select name="c" id=""></select>
+    <select name="a" id=""></select>
+    <button onclick="lxx()">获取选中的城市</button>
+    <script src="PCASClass.js"></script>
+    <script>
+        new PCAS('p','c','a','河南省','郑州市','荥阳市')//初始化插件
+        function lxx(){
+            // 北京市-市辖区-朝阳区
+            var p = document.getElementsByName('p')[0].value
+            var a = document.getElementsByName('a')[0].value
+            var c = document.getElementsByName('c')[0].value
+            alert(p+'-'+c+'-'+a)
+        }
+    </script>
+</body>
+</html>
